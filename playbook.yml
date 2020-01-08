@@ -1,0 +1,7 @@
+- name: playbook for installing wordpress on ubuntu
+  hosts: wordpress
+
+  roles:
+    - server
+    - php
+    - mysql
